@@ -11,6 +11,10 @@ We draw that picture into the first canvas element, and then we use our 2D canva
 You can change the size of the particles and the spacing of the particles, as well as the color, in the particleAttributes object. 
 
 # Demo
-You can see a demo with the included .png here:
+You can see a demo of the timed animation with the included .png here:
 
 https://brads.tech/logodemo/
+
+And of the interactive version here: 
+
+https://brads.tech/interactivelogodemo/
