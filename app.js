@@ -55,14 +55,14 @@ $(document).ready(function() {
         }
       }
     }
-  };
+  }
 
   function update() {
     for (let i = 0; i < particleArray.length; i++) {
       let p = particleArray[i];
       p.update();
     }
-  };
+  }
 
   function render() {
     contextInteractive.clearRect(0, 0, width, height);
@@ -71,7 +71,7 @@ $(document).ready(function() {
       contextInteractive.fillStyle = particleAttributes.color;
       contextInteractive.fillRect(p.x, p.y, particleAttributes.size, particleAttributes.size);
     }
-  };
+  }
 
   function animate() {
     update();
